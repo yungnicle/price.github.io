@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+
+
+html{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+   margin-left: 100px;
+}
+
+
+.title{
+    color:  hsl(300, 43%, 22%);
+margin-right: 400px;
+font-size: 23px;
+width: 400px;
+   margin-top: 100px;
+}
+
+.subtitle{
+    color: hsl(303, 10%, 53%);
+    width: 450px;
+    line-height: 22px;
+}
+
+
+.ratings{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color:hsl(300, 43%, 22%) ;
+    font-weight: 700;   
+    margin-left: ;
+    
+}
+
+
+.reviews, .guru, .besttech{ width: 490px;
+    height: 50px;
+    background: hsl(300, 24%, 96%);
+border-radius: 10px;
+margin: 10px;
+}
+
+
+img{
+    margin-left: 5px;
+}
+
+
+.reviews{
+    transform: translate(-200px, -250px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+
+.guru{
+    transform: translate(-150px, -250px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.besttech{
+    transform: translate(-100px, -250px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rate{
+    transform: translate(60px, 0px);}
+
+.stars{transform: translate(40px, 0px);}
+
+
+.rate1{transform: translate(-20px, 0px);}
+
+.stars1{transform: translate(-40px, 0px);}
+
+
+.rate2{transform: translate(-35px, 0px);}
+
+.stars2{transform: translate(-58px, 0px);}
+
+.testimonial-card1, .testimonial-card2, .testimonial-card3 {
+  background: hsl(300, 43%, 22%);
+  color: white;
+  height: 280px;
+  border-radius: 5px;
+  text-align: left;
+  width: 400px ;
+}
+
+.card-name-img {
+  padding-top: 40px;
+  padding-left: 40px;
+  
+}
+
+.card-name-img > img {
+  width: 4em;
+  border-radius: 50%;
+}
+
+.name-split {
+  line-height: ;
+  margin-left: 1rem;
+}
+
+.card-name {font-weight: 700;
+    transform: translate(80px, -70px);}
+
+.card-subtitle {color: hsl(333, 80%, 67%);
+    transform: translate(80px, -80px);}
+
+.quote {
+  font-size: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  transform: translate(0px, -60px);
+  line-height: 25px;
+}
+
+.testimonial-card1{ transform: translate(0px, -150px);}
+
+
+.testimonial-card2{transform: translate(430px, -410px);}
+
+
+.testimonial-card3{transform: translate(865px, -660px);}
+
